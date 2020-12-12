@@ -94,8 +94,8 @@ signal.signal(signal.SIGHUP, handleExit)
 
 pauseEvent = Event()
 
-INTERVAL_SECS=60
-LAG_SECS=5
+INTERVAL_SECS=5
+LAG_SECS=1
 
 
 if config['influxDb']['reset']:
